@@ -40,6 +40,3 @@ COPYRIGHT
 ATTRIBUTION
   licomp-reclicense is using the license compatibility matrix from Open Source Software Data Analytics Lab@PKU-SEI.
 """
-
-
-
