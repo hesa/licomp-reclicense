@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2024 Henrik Sandklef
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 version = '0.1.0'
 
 repo = 'https://github.com/hesa/licomp-recliense/'
@@ -36,6 +40,3 @@ COPYRIGHT
 ATTRIBUTION
   licomp-reclicense is using the license compatibility matrix from Open Source Software Data Analytics Lab@PKU-SEI.
 """
-
-
-
