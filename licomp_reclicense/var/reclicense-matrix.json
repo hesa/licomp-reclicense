@@ -3,7 +3,7 @@
         "description": "This is a JSON version (with additional meta data and some license normalizations) of the CSV provided by Open Source Software Data Analytics Lab@PKU-SEI. It is mainly intended for use by licomp_reclicense (https://github.com/hesa/licomp-recliense/).",
         "disclaimer": "The data or the output of the tools in this repository come with guarantee",
         "created": {
-            "date": "2024-11-17 11:49:23.036100",
+            "date": "2024-11-17 12:03:33.540871",
             "tool_url": "https://github.com/hesa/licomp-recliense/",
             "tool_name": "licomp_reclicense",
             "tool_version": "0.1.0"
@@ -19,7 +19,7 @@
                 "license_spdx_url": "https://spdx.org/licenses/MulanPSL-2.0.html",
                 "license_scancode_url": "https://scancode-licensedb.aboutcode.org/mulanpsl-2.0.html",
                 "license_scancode_en_url": "https://scancode-licensedb.aboutcode.org/mulanpsl-2.0-en.html",
-                "spdxid": "MulanPubL-2.0"
+                "spdxid": "MulanPSL-2.0"
             }
         }
     },
