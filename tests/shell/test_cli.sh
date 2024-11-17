@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# SPDX-FileCopyrightText: 2024 Henrik Sandklef
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 lr()
 {
     PYTHONPATH=. ./licomp_reclicense/__main__.py $*
