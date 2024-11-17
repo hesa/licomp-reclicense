@@ -89,7 +89,7 @@ matrix = {
                 'license_spdx_url': 'https://spdx.org/licenses/MulanPSL-2.0.html',
                 'license_scancode_url': 'https://scancode-licensedb.aboutcode.org/mulanpsl-2.0.html',
                 'license_scancode_en_url': 'https://scancode-licensedb.aboutcode.org/mulanpsl-2.0-en.html',
-                'spdxid': 'MulanPubL-2.0'
+                'spdxid': 'MulanPSL-2.0'
             }
         }
     },
