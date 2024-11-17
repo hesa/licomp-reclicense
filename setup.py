@@ -21,7 +21,7 @@ setuptools.setup(
     version=version,
     author="Henrik Sanklef",
     author_email="hesa@sandklef.com",
-    description="",
+    description=description.replace('\n', ' '),
     long_description=description,
     long_description_content_type="text/markdown",
     license_files=('LICENSES/GPL-3.0-or-later.txt',),
@@ -33,7 +33,7 @@ setuptools.setup(
         ],
     },
     package_data={
-        'licomp_reclicense': ['licomp_reclicense/var/*'],
+        f'{module_name}': ['licomp_reclicense/var/*.json'],
     },
     install_requires=requirements,
     extras_require={
