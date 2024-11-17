@@ -27,3 +27,7 @@ Files: requirements*.txt
 Copyright: Henrik Sandklef
 License: GPL-3.0-or-later
 
+Files: requirements*.txt
+Copyright: Open Source Software Data Analytics Lab@PKU-SEI and Henrik Sandklef
+License: MulanPSL-2.0
+licomp_reclicense/matr.json
