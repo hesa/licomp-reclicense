@@ -35,6 +35,7 @@ clean:
 lint:
 	PYTHONPATH=. flake8 licomp_reclicense
 
+.PHONY: build
 build:
 	rm -fr build && python3 setup.py sdist
 
