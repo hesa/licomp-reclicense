@@ -49,3 +49,6 @@ test:
 
 install:
 	pip install .
+
+reuse:
+	reuse lint
