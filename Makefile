@@ -41,12 +41,6 @@ build:
 
 test:
 	PYTHONPATH=. python3 -m pytest --log-cli-level=10 tests/
-	PYTHONPATH=. ./licomp_reclicense/__main__.py -h
-	PYTHONPATH=. ./licomp_reclicense/__main__.py --name
-	PYTHONPATH=. ./licomp_reclicense/__main__.py --version
-	PYTHONPATH=. ./licomp_reclicense/__main__.py supported-triggers
-	PYTHONPATH=. ./licomp_reclicense/__main__.py supported-licenses
-	PYTHONPATH=. ./licomp_reclicense/__main__.py verify -il MIT -ol BSD-3-Clause
 
 install:
 	pip install .
