@@ -33,7 +33,7 @@ setuptools.setup(
         ],
     },
     package_data={
-        f'{module_name}': ['licomp_reclicense/var/*.json'],
+        f'{module_name}': ['var/*.json'],
     },
     install_requires=requirements,
     extras_require={
