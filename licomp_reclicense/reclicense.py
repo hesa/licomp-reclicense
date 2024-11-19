@@ -14,7 +14,6 @@ from licomp_reclicense.config import my_supported_api_version
 from licomp.interface import Licomp
 from licomp.interface import Provisioning
 from licomp.interface import UseCase
-from licomp.interface import Modification
 from licomp.interface import CompatibilityStatus
 
 SCRIPT_DIR = os.path.dirname(__file__)
@@ -68,6 +67,3 @@ class LicompReclicense(Licomp):
 
     def supported_provisionings(self):
         return self.provisionings
-
-#    def _status_to_licomp_status(self, status):
-#        return self.ret_statuses[status]
