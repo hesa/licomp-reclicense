@@ -9,9 +9,11 @@ import os
 
 from licomp_reclicense.config import module_name
 from licomp_reclicense.config import version
+from licomp_reclicense.config import my_supported_api_version
 
 from licomp.interface import Licomp
-from licomp.interface import ObligationTrigger
+from licomp.interface import Provisioning
+from licomp.interface import UseCase
 from licomp.interface import CompatibilityStatus
 
 SCRIPT_DIR = os.path.dirname(__file__)
@@ -23,7 +25,8 @@ class LicompReclicense(Licomp):
 
     def __init__(self):
         Licomp.__init__(self)
-        self.obligation_triggers = [ObligationTrigger.BIN_DIST, ObligationTrigger.SOURCE_DIST]
+        self.provisionings = [Provisioning.BIN_DIST, Provisioning.SOURCE_DIST]
+        self.usecases = [UseCase.LIBRARY]
         with open(MATRIX_FILE) as fp:
             self.matrix = json.load(fp)
             self.licenses = self.matrix['licenses']
@@ -38,8 +41,9 @@ class LicompReclicense(Licomp):
     def _outbound_inbound_compatibility(self,
                                         outbound,
                                         inbound,
-                                        trigger,
-                                        modified):
+                                        usecase,
+                                        provisionings,
+                                        modification):
 
         values = self.licenses[outbound][inbound]
 
@@ -52,11 +56,14 @@ class LicompReclicense(Licomp):
     def version(self):
         return version
 
+    def supported_api_version(self):
+        return my_supported_api_version
+
     def supported_licenses(self):
         return list(self.licenses.keys())
 
-    def supported_triggers(self):
-        return self.obligation_triggers
+    def supported_usecases(self):
+        return self.usecases
 
-    def _status_to_licomp_status(self, status):
-        return self.ret_statuses[status]
+    def supported_provisionings(self):
+        return self.provisionings
