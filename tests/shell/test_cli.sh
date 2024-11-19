@@ -17,6 +17,7 @@ lr()
 lr --help
 lr --name
 lr --version
-lr supported-triggers
+lr supported-provisionings
+lr supported-usecases
 lr supported-licenses
 lr verify -il MIT -ol BSD-3-Clause
