@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-version = '0.2.1'
+version = '0.3.0'
 my_supported_api_version = '0.3'
 disclaimer = 'For information about the license data, please see https://github.com/osslab-pku/RecLicense/ '
 
