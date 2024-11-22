@@ -98,10 +98,10 @@ matrix = {
 
 #print(json.dumps(matrix, indent=4))
 
-VAR_DIR = os.path.join(os.path.dirname(__file__), '..')
-VAR_DIR = os.path.join(VAR_DIR, 'licomp_reclicense')
-VAR_DIR = os.path.join(VAR_DIR, 'var')
-MATRIX_FILE=os.path.join(VAR_DIR, 'reclicense-matrix.json')
+DATA_DIR = os.path.join(os.path.dirname(__file__), '..')
+DATA_DIR = os.path.join(DATA_DIR, 'licomp_reclicense')
+DATA_DIR = os.path.join(DATA_DIR, 'data')
+MATRIX_FILE=os.path.join(DATA_DIR, 'reclicense-matrix.json')
 
 #print(json.dumps(matrix, indent=4))
 #sys.exit(0)
