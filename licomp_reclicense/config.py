@@ -4,6 +4,7 @@
 
 version = '0.2.0'
 my_supported_api_version = '0.3'
+disclaimer = 'For information about the license data, please see https://github.com/osslab-pku/RecLicense/ '
 
 repo = 'https://github.com/hesa/licomp-recliense/'
 disclaimer = 'The data or the output of the tools in this repository come with guarantee'
