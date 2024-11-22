@@ -30,3 +30,7 @@ License: GPL-3.0-or-later
 Files: licomp_reclicense/data/reclicense-matrix.json
 Copyright: Open Source Software Data Analytics Lab@PKU-SEI and Henrik Sandklef
 License: MulanPSL-2.0
+
+Files: licomp_reclicense/var/reclicense-matrix.json
+Copyright: Open Source Software Data Analytics Lab@PKU-SEI and Henrik Sandklef
+License: MulanPSL-2.0
