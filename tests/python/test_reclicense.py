@@ -65,3 +65,7 @@ def test_api_version():
     logging.debug(f'versions: {licomp_api_version} {lr_api_version}')
     assert licomp_api_version.split('.')[0] == lr_api_version.split('.')[0]
     assert licomp_api_version.split('.')[1] == lr_api_version.split('.')[1]
+
+def test_disclaimer():
+    logging.debug(f'check disclaimer')
+    assert lr.disclaimer()
