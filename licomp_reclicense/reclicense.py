@@ -10,6 +10,7 @@ import os
 from licomp_reclicense.config import module_name
 from licomp_reclicense.config import version
 from licomp_reclicense.config import my_supported_api_version
+from licomp_reclicense.config import disclaimer
 
 from licomp.interface import Licomp
 from licomp.interface import Provisioning
@@ -64,6 +65,9 @@ class LicompReclicense(Licomp):
 
     def supported_usecases(self):
         return self.usecases
+
+    def disclaimer(self):
+        return disclaimer
 
     def supported_provisionings(self):
         return self.provisionings
