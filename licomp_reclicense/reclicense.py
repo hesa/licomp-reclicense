@@ -17,7 +17,7 @@ from licomp.interface import UseCase
 from licomp.interface import CompatibilityStatus
 
 SCRIPT_DIR = os.path.dirname(__file__)
-VAR_DIR = os.path.join(SCRIPT_DIR, 'var')
+VAR_DIR = os.path.join(SCRIPT_DIR, 'data')
 MATRIX_FILE_NAME = 'reclicense-matrix.json'
 MATRIX_FILE = os.path.join(VAR_DIR, MATRIX_FILE_NAME)
 
