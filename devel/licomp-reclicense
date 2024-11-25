@@ -14,4 +14,4 @@ then
     ARGS="verify -il MIT -ol MIT"
 fi     
 
-PYTHONPATH=.${EXTRA_PYTHONPATH} ./licomp_osadl/__main__.py $* $ARGS
+PYTHONPATH=.${EXTRA_PYTHONPATH} ./licomp_reclicense/__main__.py $* $ARGS
