@@ -1,4 +1,4 @@
-# Licomp Proprietary
+# Licomp Reclicense
 
 Licomp Reclicense provides compatibility data:
 
