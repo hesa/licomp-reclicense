@@ -6,9 +6,11 @@ Licomp Reclicense provides compatibility data:
 * when distributing a binary, linking to (e.g. linking to a library) Open Source components
 * the Open Source components are unmodified
 
+Licomp Reclicense uses [RecLicense](https://github.com/osslab-pku/RecLicense) from [Open Source Software Data Analytics Lab@PKU-SEI](https://github.com/osslab-pku).
+
 ## Introduction 
 
-Licomp reclicense is using the [Licomp](https://github.com/hesa/licomp) api to communicate with the Licomp resources. For a better understanding of Licomp we suggest you read:
+Licomp Osadl implements the [Licomp](https://github.com/hesa/licomp) api for communication with the Licomp resources. For a better understanding of Licomp we suggest you read:
 
 * [Licomp basic concepts](https://github.com/hesa/licomp/#licomp-concepts)
 * [Licomp reply format](https://github.com/hesa/licomp/blob/main/docs/reply-format.md)
