@@ -3,8 +3,11 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 version = '0.3.2'
-my_supported_api_version = '0.3'
-disclaimer = 'For information about the license data, please see https://github.com/osslab-pku/RecLicense/ '
+my_supported_api_version = '0.4'
+disclaimer = 'For information about the license data, please see https://github.com/osslab-pku/RecLicense/'
+reclicense_data_url = 'https://github.com/osslab-pku/RecLicense'
+module_url = 'https://github.com/hesa/licomp-reclicense'
+
 
 repo = 'https://github.com/hesa/licomp-recliense/'
 disclaimer = 'The data or the output of the tools in this repository come with guarantee'

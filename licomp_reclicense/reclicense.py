@@ -8,6 +8,8 @@ import json
 import os
 
 from licomp_reclicense.config import module_name
+from licomp_reclicense.config import module_url
+from licomp_reclicense.config import reclicense_data_url
 from licomp_reclicense.config import version
 from licomp_reclicense.config import my_supported_api_version
 from licomp_reclicense.config import disclaimer
@@ -56,6 +58,12 @@ class LicompReclicense(Licomp):
 
     def version(self):
         return version
+
+    def url(self):
+        return module_url
+
+    def data_url(self):
+        return reclicense_data_url
 
     def supported_api_version(self):
         return my_supported_api_version
