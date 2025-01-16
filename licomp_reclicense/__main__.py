@@ -4,6 +4,8 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
+import sys
+
 from licomp.interface import Provisioning
 from licomp.interface import UseCase
 from licomp.main_base import LicompParser
@@ -21,8 +23,8 @@ def main():
                             epilog,
                             UseCase.LIBRARY,
                             Provisioning.BIN_DIST)
-    o_parser.run()
+    return o_parser.run()
 
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())
